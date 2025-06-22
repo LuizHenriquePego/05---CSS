@@ -1,0 +1,146 @@
+body {
+  border: 5px solid #e91e63; 
+  border-radius: 10px;
+  margin: 20px;              
+  padding: 20px;
+  background-color: #121212; 
+  color: #ffffff;            
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+h1 {
+  padding: 10px;
+  font-family: 'Orbitron', sans-serif; 
+  color: #e91e63; 
+  margin-bottom: 10px;
+}
+
+h2 {
+  padding: 10px;
+  font-family: 'Rubik', sans-serif; 
+  color: #ff9800;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  border: 2px solid #e91e63;
+}
+
+ul {
+  text-align: justify;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;                
+  flex-wrap: wrap;         
+  margin-top: 20px;
+}
+
+.formulario {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 10px rgba(233, 30, 99, 0.3);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border: 2px solid #ff9800;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+  background-color: #ff4081;
+}
+
+
+.voltar {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-family: 'Rubik', sans-serif;
+}
+
+.voltar:hover {
+  background-color: #e91e63;
+  color: #fff;
+}
